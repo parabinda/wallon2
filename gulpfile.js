@@ -436,7 +436,7 @@ gulp.task('e2e-build', function() {
     })
     .option('site-url', {
       alias: 'U',
-      default: 'http://school.demo.moodle.net',
+      default: 'http://evidya.co.in',
       describe: 'The URL of the site targetted by the tests'
     })
     .option('site-version', {
